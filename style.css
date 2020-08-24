@@ -1,1 +1,81 @@
 /*Personal Web Page Style Sheet */
+body {background-color: antiquewhite;
+        color: #729fa8;
+}
+
+h1 {font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+}
+h2 {font-family: sans-serif;
+        font-size: 16px;
+        margin-left: 0px;
+        text-align: center;
+        padding-bottom: 25px;
+}
+h3 {font-family: Times;
+        font-size: 16px;
+        margin-left: 0x;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 75px;
+}
+
+.maintext {font-family: "Times New Roman";
+    text-align: center;
+    font-size: 20px;
+    color: #c0d4d8;
+    margin-left: 101px;
+    margin-right: 101px;
+    padding-bottom: 20px;
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.columnLeft {
+    float: left;
+    margin-left: 8%;
+    margin-right: auto;
+    width: 40%;
+    padding: 10px; padding-left: 100;
+    background-color:#ffdccc;
+    }
+
+.columnRight {
+    float: left;
+    margin-left: auto;
+    margin-right: 8%;
+    width: 40%;
+    padding: 10px;
+    background-color:#dcefee;
+    }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+a:link {
+  color: #ff854d;
+}
+
+a:visited {
+  color: #e64900;
+}
+
+a:hover {
+  color: #eef7f6;
+}
+
+a:active {
+  color: #306966;
+}
